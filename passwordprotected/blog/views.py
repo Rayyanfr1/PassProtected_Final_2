@@ -41,7 +41,9 @@ def post_edit(request, pk):
             post.published_date = timezone.now()
             post.save()
             return redirect('post_detail', pk=post.pk)
+        else:
+            # Add error handling here (e.g., display error messages)
+            return render(request, 'blog/post_edit.html', {'form': form, 'error': 'Invalid form data'})
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
-
