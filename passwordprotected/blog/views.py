@@ -59,3 +59,7 @@ def post_remove(request, pk):
 
 def password_checker(request):
     return render(request, 'blog/password_checker.html')
+
+
+def password_generator(request):
+    return render(request, 'blog/password_generator.html')
