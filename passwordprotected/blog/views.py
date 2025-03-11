@@ -54,3 +54,7 @@ def post_remove(request, pk):
         post.delete()
         return redirect('post_list')
     return render(request, 'blog/post_confirm_delete.html', {'post': post})
+
+
+def password_checker(request):
+    return render(request, 'blog/password_checker.html')
