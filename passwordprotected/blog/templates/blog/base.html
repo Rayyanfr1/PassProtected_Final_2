@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Protected Blog</title>
+</head>
+<body>
+    <h1>Password Protected Blog</h1>
+    <div>
+        <a href="{% url 'password_checker' %}">Password Strength Checker</a>
+    </div>
+    {% block content %}{% endblock %}
+</body>
+</html>
