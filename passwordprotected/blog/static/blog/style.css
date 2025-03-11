@@ -33,3 +33,57 @@
     margin-top: 10px;
     font-weight: bold;
 }
+#password-generator-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#password-generator-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#password-generator-form input[type="number"],
+#password-generator-form input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+#password-generator-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#generated-password {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#generated-password label {
+    margin-right: 10px;
+}
+
+#generated-password input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#generated-password button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
