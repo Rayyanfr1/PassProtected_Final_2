@@ -181,3 +181,54 @@ button:hover,
 input[type="submit"]:hover {
     background-color: #4A778F; /* A slightly darker shade for hover effect */
 }
+
+
+/* Blog posts */
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.post .date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Post detail */
+.post-detail h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.post-detail p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.post-detail .date {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
