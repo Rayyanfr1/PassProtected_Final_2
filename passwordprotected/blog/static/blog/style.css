@@ -87,3 +87,97 @@
     cursor: pointer;
     margin-left: 10px;
 }
+
+/* General Styles */
+body {
+    background-color: #03071E; /* Primary Background */
+    color: #F0E68C; /* Primary Text Color */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #F9F2ED; /* Accent Color */
+}
+
+a {
+    color: #6096B4; /* Button/Link Color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Content Containers */
+.post,
+#password-checker-form,
+#password-generator-form,
+.post-detail {
+    background-color: #1D263B; /* Secondary Background/Cards */
+    border: 1px solid #343A40; /* Optional: Add a subtle border */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Post List */
+.post .date {
+    color: #94A3B8; /* Secondary Text Color */
+}
+
+/* Password Checker */
+#strength-feedback {
+    color: #F9F2ED; /* Accent Color */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Password Generator */
+#generated-password {
+    color: #F9F2ED; /* Accent Color */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#generated-password label {
+    margin-right: 10px;
+}
+
+#generated-password input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #343A40; /* Optional: Add a subtle border */
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #03071E; /* Match the primary background */
+    color: #F0E68C; /* Match the primary text color */
+}
+
+#generated-password button {
+    background-color: #6096B4; /* Button/Link Color */
+    color: #F9F2ED; /* Accent Color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Buttons */
+button,
+input[type="submit"] {
+    background-color: #6096B4; /* Button/Link Color */
+    color: #F9F2ED; /* Accent Color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #4A778F; /* A slightly darker shade for hover effect */
+}
