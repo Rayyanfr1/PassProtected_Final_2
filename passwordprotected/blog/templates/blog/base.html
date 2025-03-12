@@ -11,6 +11,16 @@
         <a href="{% url 'password_checker' %}">Password Strength Checker</a>
         <a href="{% url 'password_generator' %}">Password Generator</a>
     </div>
+
+    <div>
+        <a href="{% url 'password_checker' %}">Password Strength Checker</a> |
+        <a href="{% url 'password_generator' %}">Password Generator</a> |
+        {% if user.is_authenticated %}
+            <a href="{% url 'logout' %}">Logout</a>
+        {% else %}
+            <a href="{% url 'login' %}">Login</a>
+        {% endif %}
+    </div>
     {% block content %}{% endblock %}
 </body>
 </html>
