@@ -1,0 +1,234 @@
+#password-checker-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#password-checker-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#password-checker-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#password-checker-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#strength-feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+#password-generator-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#password-generator-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#password-generator-form input[type="number"],
+#password-generator-form input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+#password-generator-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#generated-password {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#generated-password label {
+    margin-right: 10px;
+}
+
+#generated-password input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#generated-password button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* General Styles */
+body {
+    background-color: #03071E; /* Primary Background */
+    color: #F0E68C; /* Primary Text Color */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #F9F2ED; /* Accent Color */
+}
+
+a {
+    color: #6096B4; /* Button/Link Color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Content Containers */
+.post,
+#password-checker-form,
+#password-generator-form,
+.post-detail {
+    background-color: #1D263B; /* Secondary Background/Cards */
+    border: 1px solid #343A40; /* Optional: Add a subtle border */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Post List */
+.post .date {
+    color: #94A3B8; /* Secondary Text Color */
+}
+
+/* Password Checker */
+#strength-feedback {
+    color: #F9F2ED; /* Accent Color */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Password Generator */
+#generated-password {
+    color: #F9F2ED; /* Accent Color */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#generated-password label {
+    margin-right: 10px;
+}
+
+#generated-password input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #343A40; /* Optional: Add a subtle border */
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #03071E; /* Match the primary background */
+    color: #F0E68C; /* Match the primary text color */
+}
+
+#generated-password button {
+    background-color: #6096B4; /* Button/Link Color */
+    color: #F9F2ED; /* Accent Color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Buttons */
+button,
+input[type="submit"] {
+    background-color: #6096B4; /* Button/Link Color */
+    color: #F9F2ED; /* Accent Color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #4A778F; /* A slightly darker shade for hover effect */
+}
+
+
+/* Blog posts */
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.post .date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Post detail */
+.post-detail h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.post-detail p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.post-detail .date {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
