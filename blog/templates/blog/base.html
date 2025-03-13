@@ -2,16 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Protected Blog</title>
     <link rel="stylesheet" href="{% static 'blog/style.css' %}">
 </head>
 <body>
     <h1>Password Protected Blog</h1>
-    <div>
-        <a href="{% url 'password_checker' %}">Password Strength Checker</a>
-        <a href="{% url 'password_generator' %}">Password Generator</a>
-    </div>
-
     <div>
         <a href="{% url 'password_checker' %}">Password Strength Checker</a> |
         <a href="{% url 'password_generator' %}">Password Generator</a> |
@@ -23,4 +20,4 @@
     </div>
     {% block content %}{% endblock %}
 </body>
-</html>
+</ht
